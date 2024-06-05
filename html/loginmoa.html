@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon-dark.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/loginCad.css">
+    <link rel="stylesheet" href="../css/mediaquery.css">
+    <title>Login MoA</title>
+
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../index.html"><img class="image" src="../img/Logo-MoA-Ligth.png" alt="Logo-MoA"></a>
+        </div>
+        <div>
+            <h1 class="logo-name">More One Art</h1>
+        </div> 
+        <nav>
+            <p>Não possui conta ainda?<br>
+            Faça seu <a href="cadmoa.html">Cadastro</a></p>
+        </nav>
+    </header>
+
+    <section id="login">
+        <div id="imagem"></div>
+
+        <div id="formulario">
+
+            <h1>Login</h1>
+
+            <form id="iform" >
+
+                
+                <input type="text" placeholder="email">
+                <input type="password" placeholder="senha">
+                <input type="submit" onclick="logar();">
+
+                <p><a href="passrecover.html">Esqueci minha senha</a></p>
+            </form>
+            <div id="link">
+                <p>Não possui conta?<br>
+                Faça seu <a href="cadmoa.html">Cadastro</a></p> 
+            </div>
+        </div>
+    </section>
+    <script>
+
+function logar() {
+            var login = document.getElementById('iemail').value;
+            var senha = document.getElementById('isenha').value;
+
+            if(login == "moa@admin" && senha == "senha123"){
+                location.href = "dash.html";
+            }else{
+                alert('usuario ou senha incorretos.');
+            }
+        }
+    </script>
+</body>
+</html>

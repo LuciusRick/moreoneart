@@ -1,0 +1,65 @@
+
+body {
+    color: white;
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 1px black;
+    margin: 0;
+    padding: 0;
+    background-color: #029c4f;;
+}
+
+.produto-img{
+    width:200px;
+    height: 200px;
+}
+
+#sec-shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.artigo {
+    margin: 10px;
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid #003108;
+    border-radius: 8px;
+}
+
+.artigo:hover{
+    width: 320px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px white;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: #029c4f;
+    border: 1px solid #006633;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.button:hover{
+    width: 210px;
+    height: 60px;
+    box-shadow: 0px 0px 10px white;
+    font-size: 1.1em;
+}
+
+.spaceblc{
+    height: 100px;
+}
+

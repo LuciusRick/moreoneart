@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon-dark.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/loginCad.css">
+    <link rel="stylesheet" href="../css/mediaquery.css">
+    <title>Cad MoA</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../index.html"><img class="image" src="../img/Logo-MoA-Ligth.png" alt="Logo-MoA"></a>
+        </div>
+        <div>
+            <h1 class="logo-name">More One Art</h1>
+        </div> 
+        <nav>
+            <p>ja possui conta?</p>
+            <p>Entao faça <a href="loginmoa.html">login</a></p>
+        </nav>
+    </header>
+    
+    <section id="icad">
+        <div id="imagem"></div>
+
+        <div id="formulario">
+
+            <h1>Cadastro</h1>
+
+            <form action="cad.php" method="post" id="iform" autocomplete="on">
+
+                
+                <input type="email" name="email" id="iemail"  placeholder="Insira aqui seu Email" autocomplete="email" required  maxlength="30">
+            
+                <input type="password" name="senha" id="isenha"  placeholder="Insira aqui sua Senha" autocomplete="new-password" required minlength="8" maxlength="20">
+               
+
+                <input id="button" type="submit" value="Enviar" href="dash.html">
+                
+            </form>
+            <div id="link">
+                <p>Ja possui conta? Faça seu <a href="loginmoa.html">Login</a></p> 
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
