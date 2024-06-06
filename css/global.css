@@ -95,11 +95,7 @@ h1,p{
     padding: 20px;
 }
 
-.div-img > img{
-    width: 250px;
-    height: 250px;
-    padding: 30px 20px 20px 20px;
-}
+
 
 #sec-service{
     width: 100vw;
@@ -122,23 +118,28 @@ h1,p{
 }
 
 .div-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 300px;
-    height: 200px;
+    height: 190px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
 }
 
+.div-service:hover{
+    box-shadow: 0px 0px 50px white;
+}
+
 .div-service > h1{
+    width: 100%;
     padding: 5px 15px;
     font-size: 1.5em;
     border-radius: 20px 20px 0px 0px;
     background-color: gray;
 }
 
-.div-service :hover{
-    box-shadow: 0px 0px 25px white;
-    transition: 0.6s;
-}
+
 
 .jobs{
     display: flex;
@@ -148,58 +149,66 @@ h1,p{
     gap: 30px;
 }
 
+.div-img{
+    width: 200px;
+    height: 200px;
+}
+
 #seebeats{
-    background-image: url(../img/svg/boombox.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100px;
-    box-shadow: 2px 2px 1px black;
-}
-
-#seebeats:hover{
-    box-shadow: 0px 0px 25px white;
-    transition: 0.6s;
-}
-
-#beatssee{
     background-image: url(../img/svg/music-note-list.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100px;
-    box-shadow: 2px 2px 1px black;
+    background-size: 90px;
 }
 
-#beatssee:hover{
-    box-shadow: 0px 0px 25px white;
-    transition: 0.6s;
+#beatmaking{
+    background-image: url(../img/svg/boombox.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+    
 }
-
-
 
 #mixmaster{
     background-image: url(../img/svg/soundwave.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100px;
-    box-shadow: 2px 2px 1px black;
-}
-
-#mixmaster:hover{
-    box-shadow: 0px 0px 25px white;
-    transition: 0.6s;
+    background-size: 90px;
 }
 
 #videoedit{
     background-image: url(../img/svg/person-video2.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100px;
-    box-shadow: 2px 2px 1px black;
+    background-size: 90px;
 }
 
-#videoedit:hover{
-    box-shadow: 0px 0px 25px white;
-    transition: 0.6s;
+#animaframe{
+    background-image: url(../img/svg/film.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+
+#criasite{
+    background-image: url(../img/svg/calendar3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+
+#gravavoz{
+    background-image: url(../img/svg/mic.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+
+#gravaclip{
+    background-image: url(../img/svg/camera-reels.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
 }
 
 footer{
