@@ -9,28 +9,19 @@
     height: 100vh;
 }
 
-nav.menu-lateral{
-    width: 70px;
+nav.menu-itens{
+    
+    width: 220px;
     height: 100vh;
-    transition: .9s;
+    transition: 1s;
     overflow: hidden;
     position: fixed;
-    top: 0px;
+    top: 90px;
     left: 0px;
     background-color: #131515;;
 }
 
-nav.menu-lateral:hover{
-    width: 300px;
-    height: 100vh;
-    background-color: rgb(29, 29, 29);
-    box-shadow: 3px 3px 0  white;
-}
 
-.btn-span{
-    padding: 10px;
-    
-}
 
 .btn-span > i {
     width: 70px;
@@ -40,26 +31,27 @@ nav.menu-lateral:hover{
 }
 
 ul{
+    padding: 5px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     height: 100vh;
     list-style-type: none;
     
 }
 
-.item-menu{
+.item{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     transition: .5s;
 }
 
-.item-menu:hover{
+.item:hover{
     background-color: rgb(56, 56, 56);
 }
 
-ul .item-menu a{
+ul .item a{
     display: flex;
     align-items: center;
     font-size: 1.5em;
@@ -67,7 +59,7 @@ ul .item-menu a{
     text-decoration: none;
 }
 
-ul .item-menu a:hover{
+ul .item a:hover{
     display: flex;
     align-items: center;
     font-size: 1.5em;
@@ -75,7 +67,7 @@ ul .item-menu a:hover{
     
 }
 
-ul .item-menu a .txt-link{
-    padding-left: 40px;
+ul .item a .txt-link{
+    padding-left: 20px;
 }
 
