@@ -67,10 +67,6 @@ grandes:acima de 1200px
         background-image: linear-gradient(to top #49a09d, #5f2c82);
     }
 
-    header{
-        display: flex;
-        background-color: rgba(0, 0, 0, 0.418);
-    }
 
     section#login{
         margin-top: 20px;
