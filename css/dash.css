@@ -18,7 +18,16 @@ html, body{
     width: 100vw;   
 }
 
+#header-dash{
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
 
+#header-dash h1{
+    margin-left: 30px;
+}
 
 .menu-img{
     margin: 5px;
@@ -57,7 +66,7 @@ main{
     flex-direction: column;
 }
 
-#itens{
+.item{
     display: none;
     width: 200px;  
     border-radius: 0px 5px 5px 0px; 

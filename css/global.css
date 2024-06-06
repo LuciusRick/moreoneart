@@ -40,6 +40,11 @@ header{
     border-radius: 50%;
 }
 
+.head-logo > img{
+    width: 50px;
+    border-radius: 50%;
+}
+
 .head-links{
     text-decoration: none;
     color:black;
