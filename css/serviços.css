@@ -1,0 +1,31 @@
+#base-area-service{
+    padding: 80px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#venderBeats{
+    width: 95vw;
+    height: 550px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+#publicarBeats{
+    width: 95vw;
+    height: 550px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+#catalogosDispo{
+    width: 95vw;
+    height: 550px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
