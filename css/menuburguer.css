@@ -10,15 +10,16 @@
 }
 
 nav.menu-itens{
-    
-    width: 220px;
+    padding: 10px;
+    display: none;
+    width: 235px;
     height: 100vh;
-    transition: 1s;
     overflow: hidden;
-    position: fixed;
-    top: 90px;
+    position: absolute;
+    top: 70px;
     left: 0px;
     background-color: #131515;;
+    border-right: 5px solid white;
 }
 
 
@@ -31,7 +32,6 @@ nav.menu-itens{
 }
 
 ul{
-    padding: 5px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -41,9 +41,9 @@ ul{
 }
 
 .item{
+    padding: 10px;
     display: flex;
     align-items: center;
-    padding: 15px;
     transition: .5s;
 }
 
