@@ -12,12 +12,18 @@
     <script src="../scripts/script.js"></script>
     <title>Dashbord</title>
 </head>
-<body onresize="mudouTamanho()">
+<body onload="naoLogado()">
     <header id="header-dash">
         
         <div class="head-logo" onclick="clickMenu()"><img src="../img/Logo-MoA-Ligth.png" alt="logoimg"></div>
         <h1 class="logo-name">More One Art</h1>
         <input type="search">
+        <nav>
+            <ul id="nav-area">
+                <li class="head-links"><a href="html/loginmoa.html">login</a></li>
+                <li class="head-links"><a href="html/cadmoa.html">Cadastro</a></li>
+            </ul>
+        </nav>
         
     </header>
     <main>
