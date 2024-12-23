@@ -29,7 +29,13 @@ header{
     background-color: black;
 }
 
-#nav-area{
+#nav-area1{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+#nav-area2{
     display: flex;
     gap: 20px;
     list-style: none;
