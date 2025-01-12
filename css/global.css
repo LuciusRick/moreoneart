@@ -16,7 +16,7 @@
 header{
     text-align: center;
     position: fixed;
-    top: 0px;
+    top: -1px;
     width: 100vw;
     height: 90px;
     display: flex;
@@ -70,49 +70,6 @@ a:hover{
 
 main{
     background: linear-gradient(171deg, rgba(10,179,10,1) 0%, rgba(0,102,51,1) 100%);
-}
-
-.sec-show{
-    overflow-x: auto;
-    width: 100vw;
-    height: 600px;
-    padding-top: 100px;
-    background-color: black;
-    text-align: center;
-}
-
-.div-text{
-    padding: 10px;
-    margin: auto;
-    color: white;
-    font-size: 1.5em;
-    font-family:Arial, Helvetica, sans-serif ;
-    font-weight: bolder;
-    
-}
-
-.div-img > img{
-    width: 250px;
-    height: 250px;
-    padding: 30px 20px 20px 20px;
-}
-
-#carrossel-p{
-    margin: auto;
-    overflow: auto;
-    width:100vw;
-    height:400px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-
-.carrossel-f{
-    width: 800px;
-    height: 400px;
-    display: block;
-    background-color: blueviolet;
-    border-radius: 10px;
 }
 
 #sec-service{

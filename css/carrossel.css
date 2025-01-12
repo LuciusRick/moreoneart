@@ -1,0 +1,64 @@
+.arruma{
+    padding-top:100px;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+
+.carousel {
+    margin: auto;
+    width: 90%;
+    height: 480px;
+    max-width: 1200px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  /* Faixa de itens */
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  /* Cada item no carrossel */
+  .carousel-item {
+    display: block;
+    width: 800px;
+    box-sizing: border-box;
+  }
+
+  /* Imagens */
+  .carousel-item img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+  }
+
+  /* Botões de navegação */
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+
+  .carousel-button.left {
+    left: 10px;
+  }
+
+  .carousel-button.right {
+    right: 10px;
+  }
