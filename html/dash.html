@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon/favicon-dark.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/mediaquery.css">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/dash.css">
     <link rel="stylesheet" href="../css/menuburguer.css">
@@ -15,43 +17,44 @@
 <body onresize="mudouTamanho()">
     <header id="header-dash">
         
-        <div class="head-logo" onclick="clickMenu()"><img src="../img/Logo-MoA-Ligth.png" alt="logoimg"></div>
+        <div class="head-logo" onclick="clickMenu()">
+            <img src="../img/Logo-MoA-Ligth.png" alt="logoimg">
+        </div>
         <h1 class="logo-name">More One Art</h1>
         <input type="search">
         
     </header>
     <main>
-        <nav class="menu-itens" id="itensid">
-            <ul>
-                <li class="item">
-                    <a href="../index.html">
-                        <span class="icon"><i class="bi bi-house"></i></span>
-                        <span class="txt-link">Home</span>
-                    </a>
-                </li>
-    
-                <li class="item">
-                    <a href="../index.html#sec-service">
-                        <span class="icon"><i class="bi bi-table"></i></span>
-                        <span class="txt-link">Serviços</span>
-                    </a>
-                </li>
-    
-                <li class="item">
-                    <a href="../html/vestuario.html">
-                        <span class="icon"><i class="bi bi-bag-heart-fill"></i></span>
-                        <span class="txt-link">Vestuario</span>
-                    </a>
-                </li>
-    
-                <li class="item">
-                    <a href="https://www.instagram.com/moreoneart/?igshid=YmMyMTA2M2Y%3D" target="_blank">
-                        <span class="icon"><i class="bi bi-instagram"></i></span>
-                        <span class="txt-link">Instragram</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <section id="sidebar">
+            <nav class="menu-itens" id="itensid">
+                <ul>
+                    <li class="item">
+                        <a href="../index.html">
+                            <span class="icon"><i class="bi bi-house"></i></span>
+                            <span class="txt-link">Home</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="../index.html#sec-service">
+                            <span class="icon"><i class="bi bi-table"></i></span>
+                            <span class="txt-link">Serviços</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="../html/vestuario.html">
+                            <span class="icon"><i class="bi bi-bag-heart-fill"></i></span>
+                            <span class="txt-link">Vestuario</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="https://www.instagram.com/moreoneart/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+                            <span class="icon"><i class="bi bi-instagram"></i></span>
+                            <span class="txt-link">Instragram</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
         <section id="contain0">
             <h1>New Songs</h1>
             <div id="contain1">

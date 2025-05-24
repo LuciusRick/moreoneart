@@ -40,3 +40,5 @@ const track = document.querySelector('.carousel-track');
         moveToSlide(currentIndex - 1);
       }
     });
+
+    

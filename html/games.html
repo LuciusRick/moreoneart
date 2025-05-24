@@ -3,56 +3,110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/carrossel.css">
-  <script src="../scripts/script.js"></script>
-  <title>Carrossel Simples</title>
+  <link rel="stylesheet" href="../css/mediaquery.css">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/gamespage.css">
+  <title>MoA Games</title>
 </head>
 <body>
-  <div class="carousel">
-
-    <div class="carousel-track">
-
-      <div class="carousel-item">
-        <img src="../img/akc-prod.jpg" alt="Slide 1">
-      </div>
-
-      <div class="carousel-item">
-        <img src=" ../img/fl base.jpeg" alt="Slide 2">
-      </div>
-
-      <div class="carousel-item">
-        <img src="../img/Apresentação (criada a partir do seu documento) [Tamanho original].png" alt="Slide 3"></div>
-      </div>
-
-      <button class="carousel-button left">&lt;</button>
-      <button class="carousel-button right">&gt;</button>
+  <header>
+    <div class="head-logo">
+        <a href="../index.html">
+            <img src="../img/Logo-MoA-Ligth.png" alt="logoimg">
+        </a>
     </div>
+    <div class="nav">
+        <ul id="nav-area1">
+            <li class="head-links">
+                <a href="../html/dash.html">Home</a>
+            </li>
+            <li class="head-links">
+                <a href="../index.html#sec-service">Serviços</a>
+            </li>
+            <li class="head-links">
+                <a href="../html/vestuario.html">MoA Shop</a>
+            </li>
+        </ul> 
+    </div>
+    <div class="nav2">
+            <ul id="nav-area2">
+                <li class="head-links">
+                    <a href="html/loginmoa.html">Login</a>
+                </li>
+                <li class="head-links">
+                    <a href="html/cadmoa.html">Cadastro</a>
+                </li>
+            </ul>
+        </div>
+</header>
+<main>
+  <section id="sec-games">
+            
+    <article class="artigo">
+        <h2>Boné Logo-MoA</h2>
+        <img src="../img/moadrip/bonelogo.png" alt="Blusa Logo" class="produto-img">
+        <p class="descriçao-produto">Descrição da roupa 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="preço-produto">Preço: R$ 60,00</p>
+        <button class="button">Adicionar ao Carrinho</button>
+    </article>
 
-  <script>
-    const track = document.querySelector('.carousel-track');
-    const slides = Array.from(track.children);
-    const nextButton = document.querySelector('.carousel-button.right');
-    const prevButton = document.querySelector('.carousel-button.left');
-    const slideWidth = slides[0].getBoundingClientRect().width;
+    <article class="artigo">
+        <h2>Boné Nome</h2>
+        <img src="../img/moadrip/bonelogo.png" alt="Blusa Nome" class="produto-img">
+        <p class="descriçao-produto">Descrição da roupa 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="preço-produto">Preço: R$ 60,00</p>
+        <button class="button">Adicionar ao Carrinho</button>
+    </article>
 
-    let currentIndex = 0;
+    <article class="artigo">
+        <h2>Camisa Logo-MoA</h2>
+        <img src="../img/moadrip/camisa-logo.png" alt="Camisa Logo" class="produto-img">
+        <p class="descriçao-produto">Descrição da roupa 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="preço-produto">Preço: R$ 50,00</p>
+        <button class="button">Adicionar ao Carrinho</button>
+    </article>
 
-    function moveToSlide(index) {
-      track.style.transform = `translateX(-${index * slideWidth}px)`;
-      currentIndex = index;
-    }
+    <article class="artigo">
+        <h2>Camisa Nome</h2>
+        <img src="../img/moadrip/camisa-nome.png" alt="Camisa Nome" class="produto-img">
+        <p class="descriçao-produto">Descrição da roupa 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="preço-produto">Preço: R$ 50,00</p>
+        <button class="button">Adicionar ao Carrinho</button>
+    </article>
 
-    nextButton.addEventListener('click', () => {
-      if (currentIndex < slides.length - 1) {
-        moveToSlide(currentIndex + 1);
-      }
-    });
+    <article class="artigo">
+        <h2>Blusa Logo-MoA</h2>
+        <img src="../img/moadrip/blusa-logo.png" alt="Blusa Logo" class="produto-img">
+        <p class="descriçao-produto"> Descrição da roupa 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="preço-produto">Preço: R$ 60,00</p>
+        <button class="button">Adicionar ao Carrinho</button>
+    </article>
 
-    prevButton.addEventListener('click', () => {
-      if (currentIndex > 0) {
-        moveToSlide(currentIndex - 1);
-      }
-    });
-  </script>
+    <article class="artigo">
+        <h2>Blusa Nome</h2>
+        <img src="../img/moadrip/blusa-nome.png" alt="Blusa Nome" class="produto-img">
+        <p class="descriçao-produto">Descrição da roupa 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="preço-produto">Preço: R$ 60,00</p>
+        <button class="button">Adicionar ao Carrinho</button>
+    </article>
+    
+    <article class="artigo">
+        <h2>Bermuda Logo-MoA</h2>
+        <img src="../img/moadrip/shortlogo.png" alt="Blusa Logo" class="produto-img">
+        <p class="descriçao-produto">Descrição da roupa 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="preço-produto">Preço: R$ 60,00</p>
+        <button class="button">Adicionar ao Carrinho</button>
+    </article>
+
+    <article class="artigo">
+        <h2>Calça Logo</h2>
+        <img src="../img/moadrip/calçalogo.jpg" alt="Blusa Nome" class="produto-img">
+        <p class="descriçao-produto">Descrição da roupa 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="preço-produto">Preço: R$ 60,00</p>
+        <button class="button">Adicionar ao Carrinho</button>
+    </article>
+    <!-- Adicione mais artigos conforme necessário -->
+</section>
+</main>
 </body>
 </html>

@@ -69,6 +69,10 @@ a:hover{
 }
 
 main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(171deg, rgba(10,179,10,1) 0%, rgba(0,102,51,1) 100%);
 }
 
@@ -84,8 +88,9 @@ main{
     font-weight: 400;
     font-style: normal;
     text-shadow: 2px 2px 0px black;
-    gap: 30px;
-    padding-bottom: 150px;
+    gap: 15px;
+    padding-top: 90px;
+    padding-bottom: 20px;
 }
 
 #sec-service > h1 {
@@ -93,8 +98,8 @@ main{
 }
 
 .div-service{
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 170px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
 }
@@ -112,6 +117,7 @@ main{
 }
 
 .jobs{
+    padding: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -174,6 +180,7 @@ main{
 }
 
 footer{
+    padding: 20px;
     width: 100%;
     position: absolute;
     bottom: -1;
